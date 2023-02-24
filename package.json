@@ -1,0 +1,35 @@
+{
+  "name": "setup-infrastructure",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Alexander Karamushko",
+  "license": "MIT",
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "test": "jest src --passWithNoTests",
+    "test:dev": "jest src --watch --updateSnapshot"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-import-resolver-node": "^0.3.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-testing-library": "^5.10.0",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.9.3"
+  }
+}
